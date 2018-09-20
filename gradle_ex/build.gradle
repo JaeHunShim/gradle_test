@@ -33,5 +33,8 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-actuator")
     compile("org.springframework.boot:spring-boot-devtools")
-    testCompile("junit:junit")
+    compile("org.springframework.boot:spring-boot-starter-thymeleaf") //timeleaf
+    compile("org.springframework.boot:spring-boot-starter-jdbc") //jdbc
+    compile("mysql:mysql-connector-java") //mysql
+    testCompile("org.springframework.boot:spring-boot-starter-test") //test
 }
